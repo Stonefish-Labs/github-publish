@@ -208,8 +208,6 @@ gh repo edit <owner>/<repo> --add-topic topic1 --add-topic topic2
 ```
 
 **Common topics for agent skills:**
-- `ai-agents`
-- `agent-skills`
 - `skills`
 - `cursor`
 - `claude-code`
@@ -243,8 +241,7 @@ gh repo create my-org/my-skills --public --source=. --push \
 
 # 5. Add topics
 gh repo edit my-org/my-skills \
-  --add-topic ai-agents \
-  --add-topic agent-skills \
+  --add-topic skill \
   --add-topic python
 ```
 

@@ -6,8 +6,7 @@ Common topics for repository discoverability.
 
 | Topic | Use When |
 |-------|----------|
-| `ai-agents` | Any AI agent tooling |
-| `agent-skills` | Agent skill packages |
+| `skill` | Agent skill packages |
 | `skills` | Skill-related projects |
 | `mcp` | Model Context Protocol projects |
 | `cursor` | Works with Cursor IDE |
@@ -65,8 +64,7 @@ Common topics for repository discoverability.
 **Agent skill repo (Python):**
 ```bash
 gh repo edit owner/repo \
-  --add-topic ai-agents \
-  --add-topic agent-skills \
+  --add-topic skill \
   --add-topic skills \
   --add-topic python \
   --add-topic cursor \
@@ -78,7 +76,6 @@ gh repo edit owner/repo \
 ```bash
 gh repo edit owner/repo \
   --add-topic mcp \
-  --add-topic ai-agents \
   --add-topic python \
   --add-topic api \
   --add-topic automation
@@ -87,7 +84,7 @@ gh repo edit owner/repo \
 **Knowledge management skills:**
 ```bash
 gh repo edit owner/repo \
-  --add-topic agent-skills \
+  --add-topic skill \
   --add-topic knowledge-management \
   --add-topic markdown \
   --add-topic yaml \
