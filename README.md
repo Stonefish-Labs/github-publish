@@ -41,21 +41,6 @@ The skill walks through:
 4. Creating the GitHub repo via `gh repo create`
 5. Adding discoverability topics
 
-## Structure
-
-```
-github-publish/
-├── README.md
-├── LICENSE
-├── .gitignore
-└── skills/
-    └── github-publish/
-        ├── SKILL.md
-        └── references/
-            ├── gitignore-templates.md
-            └── topics-reference.md
-```
-
 ## License
 
 MIT
